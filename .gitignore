@@ -1,0 +1,13 @@
+properties.xml
+bot_target_peer_id.txt
+bot_api_token.txt
+group_bot_id.txt
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.hidden
+
+*swp*
+*tmp*
