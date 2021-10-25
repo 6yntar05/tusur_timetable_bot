@@ -65,7 +65,7 @@ class userdata:
                 api_group_id=int(api_group_id[0])
             except:
                 pars_GROUP_ID=open("group_bot_id.txt", 'w')
-                pars_GROUP_ID.write("Ты быдло сюда id группы надо вводить")
+                pars_GROUP_ID.write("Enter your bot id here")
                 pars_GROUP_ID.close()
                 raise SystemExit(228)
         '''
@@ -73,7 +73,7 @@ class userdata:
 url = "https://timetable.tusur.ru/faculties/fsu/groups/"+userdata.tusur_group+".ics"
 
 #EXTRA CODE
-if ("--release" in sys.argv): print(" >>> Отправляю в беседу"); userdata.bot_target_peer_id = "2000000014"
+#if ("--release" in sys.argv): print(" >>> Отправляю в беседу"); userdata.bot_target_peer_id = "###"
 
 class color:
     good = '\033[92m]'
